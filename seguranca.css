@@ -1,0 +1,131 @@
+/* Estilo Geral */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #7f8c8d;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.header-seguro {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header-seguro .logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.header-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+/* Seção Introdução */
+.seguranca-intro {
+    margin: 30px 0;
+}
+
+.seguranca-intro h2 {
+    font-size: 28px;
+    color: #2c3e50;
+}
+
+/* Seções de Detalhes */
+.seguranca-detalhes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.seguranca-item {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.seguranca-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.seguranca-item img {
+    max-width: 60px;
+    margin-bottom: 15px;
+}
+
+.seguranca-item h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.seguranca-item p {
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+/* Seção Extra */
+.seguranca-extra {
+    background: #ecf0f1;
+    padding: 40px 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+
+.seguranca-extra h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.seguranca-extra p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Rodapé */
+.footer-seguro {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-seguro p {
+    margin: 5px 0;
+    font-size: 14px;
+}
